@@ -13,3 +13,4 @@ build
 logs
 *.pem
 .vscode
+yarn.lock

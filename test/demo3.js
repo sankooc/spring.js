@@ -8,10 +8,7 @@ const pem = () => {
 };
 
 
-exports.create = function () {
-  return {
-    play: () => {
-      console.log('plauuuuu');
-    },
-  };
+// service-creator
+exports.play = function (acc) {
+  console.log('play'); 
 };

@@ -1,0 +1,1 @@
+DEBUG='spring' node test/debug.js

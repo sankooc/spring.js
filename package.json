@@ -1,14 +1,20 @@
 {
   "name": "spring-node",
-  "version": "1.0.1",
+  "version": "2.0.0-alpha",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "fswatch -o ./ | xargs -n1 -I{} sh test/test.sh"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "debug": "^3.1.0"
+    "@babel/parser": "7.5.5",
+    "debug": "^3.1.0",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0"
   }
 }

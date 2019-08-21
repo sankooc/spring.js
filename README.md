@@ -1,2 +1,3 @@
 # spring.js
-service management&injection for node
+
+  node 依赖注入和服务管理  

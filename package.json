@@ -1,6 +1,6 @@
 {
   "name": "spring-node",
-  "version": "2.0.1-alpha",
+  "version": "2.0.2-alpha",
   "description": "",
   "main": "index.js",
   "scripts": {

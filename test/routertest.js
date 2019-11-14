@@ -1,7 +1,6 @@
 
 
 
-exports.create = (s2) => {
   /**
    * 
    * @path /v1/pau
@@ -11,8 +10,8 @@ exports.create = (s2) => {
    */
   exports.login = async () => {
     // 里面测试
-    console.log(s2);
-    await s2.play();
+    // console.log(s2);
+    // await s2.play();
   };
 
 
@@ -31,4 +30,3 @@ exports.create = (s2) => {
   exports.logout = async () => {
 
   };
-};
